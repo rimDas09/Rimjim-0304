@@ -20,11 +20,11 @@ python main.py
 
 Input files:
 ====================
-clinton-50k.csv
-trump-50k.csv
+data-sample-clinton-50k.csv
+data-sample-trump-50k.csv
 Specified in the main() method
 
 Output files:
 ====================
-clinton-50k-result.csv
-trump-50k-result.csv
+data-sample-clinton-50kfinal-result-v1.csv
+data-sample-trump-50kfinal-result-v1.csv
