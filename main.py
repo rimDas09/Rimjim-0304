@@ -1,8 +1,8 @@
-
 from feature_extraction import *
 from kmeans import *
 import CMUTweetTagger
 import nltk
+
 nltk.download('stopwords')
 nltk.download('punkt')
 
@@ -51,12 +51,8 @@ def perform_analysis(df):
     print(df.groupby(['cluster_fs2']).describe())
     print(df.groupby(['cluster_fs3']).describe())
     print(df.groupby(['cluster_fs4']).describe())
-    df.corr()
-    result1 = df.sort(['cluster_fs1'])
-    result2 = df.sort(['cluster_fs2'])
-    result3 = df.sort(['cluster_fs3'])
-    result4 = df.sort(['cluster_fs4'])
-    result4
+
+    return df.corr()
 
 
 def main():
